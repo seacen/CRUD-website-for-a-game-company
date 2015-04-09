@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Origicide';
+    src: url('Origicide.ttf'); 
+    
+ 
+}
+
+.title {
+    text-align: center;
+    font-family: "Origicide";
+    font-size: 70px;
+    color: black;
+    text-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: serif;
+    font-size: 18px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    display:inline-block;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 1300px;
+}
+
+hr {
+    border: 0;
+    background-color: #C00000;
+    height: 5px;
+}
+
+
+a.login {
+    font-size:25px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    -webkit-animation: myfirst 2s linear 1s infinite alternate; 
+}
+
+@-webkit-keyframes myfirst {
+    from {color: red;}
+    to {color: white;}
+}
+
+
+
+.navigation{
+   /* border-top:10px solid #180000; */   
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background: linear-gradient(#180000 , #900000,#C80000,#900000,#180000); 
+}
+.navigation li{
+    display:inline;
+}
+
+.navigation a{
+    color:white;
+    font-family:serif;
+    font-size:18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    display:inline-block;
+    padding:18px;
+    width:175px;
+}
+.navigation a:hover{
+    background: linear-gradient(#380000, #F00000 ,#380000); 
+}
+
+
+div.loginpage {
+    height:150%;
+    width:25%;
+    border: 5px solid #A00000;    
+    margin: 200px auto 10px auto;
+
+}
+
+.loginpage {
+    text-align: center;
+}
+
+p.loginpage a {
+    font-size: 25px;
+    text-transform: uppercase;
+    display:inline-block;
+    padding: 18px;
+    background: linear-gradient(#980000,#580000); 
+}
+
+p.loginpage a:hover{
+    background: linear-gradient(#580000,#980000); 
+    width: 180px;
+}
+
+
+
